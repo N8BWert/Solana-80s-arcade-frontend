@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Screen from './assets/Screen';
+
+const testNumPlayers = 1;
+const testButtonsPerPlayer = 2;
+const testWebGLLink = "https://www.youtube.com/embed/FmKTiH5Lca4";
+const testGameTitleDisplayLink = "test";
+const testGameName = "test";
+const testBackgroundColor = "#309159";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Screen
+        screenWidth={window.innerWidth}
+        screenHeight={window.innerHeight}
+        numPlayers={testNumPlayers}
+        buttonsPerPlayer={testButtonsPerPlayer}
+        webGLLink={testWebGLLink}
+        gametitleDisplayLink={testGameTitleDisplayLink}
+        gameName={testGameName}
+        backgroundColor={testBackgroundColor}
+      />
     </div>
   );
 }

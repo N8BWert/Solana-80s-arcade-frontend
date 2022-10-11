@@ -1,0 +1,7 @@
+.arcade-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	flex-flow: flex-start;
+	align-items: center;
+}

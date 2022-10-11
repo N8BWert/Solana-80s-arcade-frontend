@@ -1,0 +1,8 @@
+.arcade-control-holder {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex-flow: space-evenly;
+	align-items: center;
+	align-content: center;
+}

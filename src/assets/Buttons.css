@@ -1,0 +1,32 @@
+.button-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 30px;
+}
+
+.two-button {
+	width: 30px;
+	height: 30px;
+	flex-basis: auto;
+	flex-shrink: 3;
+}
+
+.four-button {
+	width: 20px;
+	height: 20px;
+	flex-basis: auto;
+	flex-shrink: 3;
+}
+
+.four-button-spacer {
+	width: 5px;
+	height: 20px;
+}
+
+.button {
+	width: 30px;
+	height: 30px;
+}

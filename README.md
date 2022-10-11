@@ -1,3 +1,6 @@
+# Solana-80s-arcade-frontend
+I thought it would be fun to build an 80s style arcade in Solana.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

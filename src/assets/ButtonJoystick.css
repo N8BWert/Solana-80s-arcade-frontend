@@ -1,0 +1,7 @@
+.button-joystick-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	flex-flow: center;
+	align-items: center;
+}
