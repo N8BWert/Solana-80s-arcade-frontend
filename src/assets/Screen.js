@@ -10,7 +10,7 @@ function Screen(props) {
 		<div className="screen-container">
 			<Arrow isRight={false} />
 			<ArcadeMachine
-				screenWidth={props.screenWidth === null ? "200px" : props.screenWidth}
+				screenWidth={props.screenWidth}
 				screenHeight={props.screenHeight}
 				numPlayers={props.numPlayers}
 				buttonsPerPlayer={props.buttonsPerPlayer}

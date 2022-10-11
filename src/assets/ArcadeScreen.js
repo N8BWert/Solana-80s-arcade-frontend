@@ -4,18 +4,20 @@ function ArcadeScreen(props) {
 	return (
 		<div 
 			style={{
-				width: props.width * 1,
-				height: props.height * 1,
+				width: "700px",
+				height: "700px",
 				backgroundColor: props.backgroundColor,
 			}}
 		>
 			{/* placeholder div */}
-			{/* <div
+			<div
 				style={{
-					margin: "25px",
+					marginLeft: "18px",
+					width: "95%",
+					height: "100%",
 					backgroundColor: "#FFFFFF",
 				}}
-			></div> */}
+			></div>
 			{/* insert an iframe to the webgl build */}
 			{/* 
 			<iframe 
