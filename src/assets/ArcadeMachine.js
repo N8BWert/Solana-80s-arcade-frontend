@@ -7,6 +7,7 @@ function ArcadeMachine(props) {
 	return (
 		<div className="arcade-container">
 			<GameTitleDisplay
+				backgroundColor={props.backgroundColor}
 				img={props.gameTitleDisplayLink}
 				name={props.gameName} 
 			/>

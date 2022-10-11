@@ -1,11 +1,12 @@
 import Screen from './assets/Screen';
 
-const testNumPlayers = 1;
-const testButtonsPerPlayer = 2;
-const testWebGLLink = "https://www.youtube.com/embed/FmKTiH5Lca4";
-const testGameTitleDisplayLink = "test";
-const testGameName = "test";
-const testBackgroundColor = "#309159";
+const testNumPlayers = [1, 2, 3, 4];
+const testButtonsPerPlayers = [2, 4];
+const testWebGLLinks = ["https://www.youtube.com/embed/FmKTiH5Lca4",
+                        ""];
+const testGameTitleDisplayLinks = ["test", "test2"];
+const testGameNames = ["test1", "test2"];
+const testBackgroundColors = ["#309159", "#0F0F0F"];
 
 function App() {
   return (
@@ -13,12 +14,12 @@ function App() {
       <Screen
         screenWidth={window.innerWidth}
         screenHeight={window.innerHeight}
-        numPlayers={testNumPlayers}
-        buttonsPerPlayer={testButtonsPerPlayer}
-        webGLLink={testWebGLLink}
-        gametitleDisplayLink={testGameTitleDisplayLink}
-        gameName={testGameName}
-        backgroundColor={testBackgroundColor}
+        numPlayers={testNumPlayers[3]}
+        buttonsPerPlayer={testButtonsPerPlayers[1]}
+        webGLLink={testWebGLLinks[0]}
+        gametitleDisplayLink={testGameTitleDisplayLinks[0]}
+        gameName={testGameNames[0]}
+        backgroundColor={testBackgroundColors[0]}
       />
     </div>
   );
